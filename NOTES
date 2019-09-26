@@ -1,0 +1,5 @@
+It started here....
+
+The Canton area chamber of commerce MAGNET robot demo. Running on a Pi4 becuase the Pi4 is new and was in stock. It was originally going to handle some video and possibly a camera. Due to unreliable hardware, I've opted to switch to push button control and a headless interface.
+
+/etc/rc.local should be kicking off a script that starts the robots. that script should live in /root/  We need root access to read GPIO pins anyway, and this is a single function device. 
